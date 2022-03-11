@@ -19,7 +19,7 @@ const Header = () => {
 									community
 								</h1>
 								<p>
-									More than 2 billion people in over countries use socibook{' '}
+									More than 2 billion people in over countries use Netbook{' '}
 									<br />
 									to stay in touch with friends and family
 								</p>
