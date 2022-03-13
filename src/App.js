@@ -5,6 +5,7 @@ import Achievement from './components/Achievement';
 import Features from './components/Features';
 import Members from './components/Members';
 import Advert from './components/Advert';
+import Blog from './components/Blog';
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 			<Features />
 			<Members />
 			<Advert />
+			<Blog />
 		</div>
 	);
 }
