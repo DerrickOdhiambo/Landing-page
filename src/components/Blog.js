@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/blog.scss';
 
 // Bootstrap Icons
 import { BsArrowRight } from 'react-icons/bs';
