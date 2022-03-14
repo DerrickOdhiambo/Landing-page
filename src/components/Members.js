@@ -1,9 +1,6 @@
 import React from 'react';
 import '../styles/members.scss';
 
-import ButtonGroup from 'react-bootstrap/ButtonGroup';
-import Button from 'react-bootstrap/Button';
-
 const Members = () => {
 	return (
 		<React.Fragment>
@@ -15,19 +12,26 @@ const Members = () => {
 						when an unknown printer took a gallery of type meeting <br /> fari
 						scrambled it
 					</p>
-					<ButtonGroup size='lg' className='mb-2'>
-						<Button>Left</Button>
-						<Button>Middle</Button>
-						<Button>Right</Button>
-					</ButtonGroup>
+					<div className='pill'>
+						<button className='btn'>Newest</button>
+						<button className='btn'>Popular</button>
+						<button className='btn active'>Active</button>
+					</div>
 				</div>
 				<div className='team-lower-section container'>
 					<div className='row'>
 						<div className='col-md-3'>
-							<img src='images/card2.png' alt='' />
+							<div className='members-image-1'>
+								<img src='images/Abstrack.png' alt='' />
+								<img src='images/member1.png' id='member' alt='' />
+								<div className='members-description'>
+									<h3>Fahim Rahman</h3>
+									<p>@rahman</p>
+								</div>
+							</div>
 						</div>
 						<div className='col-md-3'>
-							<img src='images/card1.png' alt='' />
+							<img src='images/card2.png' alt='' />
 						</div>
 						<div className='col-md-3'>
 							<img src='images/card3.png' alt='' />
