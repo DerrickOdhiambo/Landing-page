@@ -104,3 +104,56 @@
 		}
 	}
 }
+
+//Media Queries
+@media (max-width: 991.98px) {
+	.achievement-section {
+		height: 100%;
+		width: 100%;
+		.container {
+			.row {
+				width: 100%;
+				.col-md-4 {
+					margin: 1rem 0;
+					width: 100%;
+					padding: 0;
+				}
+				.card-3 {
+					h1 {
+						font-size: 25px;
+						line-height: 48px;
+					}
+					button {
+						width: 152px;
+						height: 48px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	.achievement-section {
+		height: 100%;
+		width: 100%;
+		.container {
+			.row {
+				.col-md-4 {
+					display: unset;
+					margin: 1rem 0;
+				}
+				.card-3 {
+					h1 {
+						font-size: 30px;
+						line-height: 48px;
+					}
+					button {
+						width: 152px;
+						height: 48px;
+					}
+				}
+			}
+		}
+	}
+}

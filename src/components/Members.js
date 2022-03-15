@@ -7,12 +7,12 @@ const Members = () => {
 			<section className='team'>
 				<div className='team-upper-section'>
 					<h3>valuable members</h3>
-					<h1>our active members</h1>
-					<p>
+					<h1 className='mb-3'>our active members</h1>
+					<p className='mb-3'>
 						when an unknown printer took a gallery of type meeting <br /> fari
 						scrambled it
 					</p>
-					<div className='pill'>
+					<div className='pill mb-5'>
 						<button className='btn'>Newest</button>
 						<button className='btn'>Popular</button>
 						<button className='btn active'>Active</button>
@@ -22,8 +22,9 @@ const Members = () => {
 					<div className='row'>
 						<div className='col-md-3'>
 							<div className='members-image-1'>
-								<img src='images/Abstrack.png' alt='' />
+								<img src='images/Abstrack.png' className='img-fluid' alt='' />
 								<img src='images/member1.png' id='member' alt='' />
+								<img src='images/Check.png' id='check' alt='' />
 								<div className='members-description'>
 									<h3>Fahim Rahman</h3>
 									<p>@rahman</p>

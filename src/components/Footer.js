@@ -90,7 +90,7 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className='footer-bottom'>
-					<div>
+					<div className='brand'>
 						<p>Besnik Creative Agency</p>
 					</div>
 					<div className='footer-logo'>
