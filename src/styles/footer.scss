@@ -98,6 +98,9 @@
 		.footer-top {
 			.row {
 				.col-md-4 {
+					input {
+						border-radius: 12px 0 0 12px;
+					}
 					button {
 						position: unset;
 						height: 38px;
@@ -110,6 +113,30 @@
 	}
 }
 
+@media (max-width: 768px) {
+	.footer {
+		height: 100%;
+		width: 100%;
+		.footer-top {
+			height: 100%;
+			.row {
+				.col-md-4 {
+					button {
+						position: unset;
+						height: 48px;
+						margin-bottom: 0.5rem;
+						margin-right: 0.2rem;
+						border-radius: 0 12px 12px 0;
+					}
+				}
+			}
+		}
+		.footer-bottom {
+			bottom: auto;
+		}
+	}
+}
+
 @media (max-width: 600px) {
 	.footer {
 		height: 100%;
@@ -117,16 +144,8 @@
 		.footer-top {
 			height: 100%;
 			display: block;
-			.row {
-				.col-md-4 {
-					button {
-						position: unset;
-					}
-				}
-			}
 		}
 		.footer-bottom {
-			bottom: auto;
 			.brand,
 			.footer-logo {
 				display: none;

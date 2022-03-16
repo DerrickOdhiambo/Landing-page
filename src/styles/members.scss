@@ -106,12 +106,11 @@
 			width: 100%;
 			.row {
 				.col-md-3 {
-					display: flex;
-					flex-direction: column;
-				}
-				.members-image-1 {
-					height: 182.5px;
-					width: 156px;
+					width: 100%;
+					text-align: center;
+					.members-image-1 {
+						margin: auto;
+					}
 				}
 			}
 		}

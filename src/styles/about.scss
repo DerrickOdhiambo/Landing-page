@@ -155,3 +155,13 @@
 		}
 	}
 }
+
+@media (max-width: 480px) {
+	.about {
+		.about-us-description {
+			p {
+				white-space: initial;
+			}
+		}
+	}
+}
