@@ -1,0 +1,144 @@
+.team {
+	width: 100%;
+	height: 770px;
+	.team-upper-section {
+		text-align: center;
+		margin-top: 4rem;
+		h3 {
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 18px;
+			color: #217bf4;
+			text-transform: capitalize;
+		}
+		h1 {
+			font-weight: 700;
+			font-size: 36px;
+			line-height: 36px;
+			color: #0a093d;
+			text-transform: capitalize;
+		}
+		p {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 28px;
+			color: #656464;
+		}
+		.pill {
+			width: 474px;
+			height: 72px;
+			background: rgba($color: #217bf4, $alpha: 0.06);
+			border-radius: 14px;
+			margin: auto;
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			button {
+				width: 150px;
+				height: 56px;
+				font-weight: 500;
+				font-size: 16px;
+				line-height: 16px;
+				text-align: center;
+				letter-spacing: 0.01em;
+				color: rgba($color: #2f2c4a, $alpha: 0.8);
+			}
+			.active {
+				background: #217bf4;
+				box-shadow: 0px 7px 22px -6px rgba(0, 72, 168, 0.34);
+				border-radius: 14px;
+				color: #ffffff;
+			}
+		}
+	}
+	.team-lower-section {
+		.members-image-1 {
+			width: 270px;
+			height: 316px;
+			background: #ffffff;
+			box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
+			border-radius: 14px;
+			text-align: center;
+			position: relative;
+			img {
+				margin-top: 1.3rem;
+			}
+			#member {
+				position: absolute;
+				left: 65px;
+				top: 15px;
+			}
+			#check {
+				position: absolute;
+				left: 125px;
+				top: 148px;
+			}
+			.members-description {
+				margin-top: 2.2rem;
+				h3 {
+					font-weight: 500;
+					font-size: 24px;
+					line-height: 26px;
+					color: #2f2c4a;
+				}
+				p {
+					font-weight: 400;
+					font-size: 16px;
+					line-height: 16px;
+					color: #656464;
+				}
+			}
+		}
+	}
+}
+
+//Media Queries
+@media (max-width: 992px) {
+	.team {
+		width: 100%;
+		height: 100%;
+		.team-upper-section {
+			p {
+				font-size: 20px;
+			}
+		}
+		.team-lower-section {
+			width: 100%;
+			.row {
+				.col-md-3 {
+					width: 100%;
+					text-align: center;
+					.members-image-1 {
+						margin: auto;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	.team {
+		height: 100%;
+		width: 100%;
+		.team-upper-section {
+			h1 {
+				font-size: 30px;
+			}
+			.pill {
+				height: 100%;
+				width: 100%;
+				button {
+					width: 120px;
+					height: 50px;
+				}
+			}
+		}
+		.team-lower-section {
+			text-align: center;
+			.members-image-1 {
+				margin: auto;
+			}
+		}
+	}
+}

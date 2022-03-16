@@ -1,0 +1,164 @@
+.about {
+	width: 100%;
+	height: 576px;
+	margin: 5rem 0;
+	.about-us-description {
+		margin: auto;
+		width: 406px;
+		height: 346px;
+		h3 {
+			font-style: normal;
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 18px;
+			color: #217bf4;
+		}
+		h1 {
+			font-weight: 700;
+			font-size: 36px;
+			line-height: 48px;
+			color: #0a093d;
+			text-transform: capitalize;
+		}
+		p {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 28px;
+			color: #656464;
+		}
+		.about-us-list {
+			display: flex;
+			flex-direction: column;
+			div {
+				display: flex;
+				align-items: center;
+				img {
+					width: 8px;
+					height: 8px;
+					background: #217bf4;
+					border: 1px solid #217bf4;
+					border-radius: 50%;
+					box-shadow: red;
+				}
+				p {
+					margin-top: 1rem;
+					margin-left: 1rem;
+					font-style: normal;
+					font-weight: 500;
+					font-size: 18px;
+					line-height: 18px;
+					color: #171648;
+				}
+			}
+		}
+	}
+	.about-us-images {
+		display: flex;
+		justify-content: space-around;
+		img {
+			margin: 1rem;
+		}
+		.image-1 {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			img {
+				width: 270px;
+				height: 368px;
+			}
+		}
+		.image-2 {
+			img {
+				width: 265px;
+				height: 238px;
+			}
+		}
+	}
+}
+
+//Media Query
+@media (max-width: 991.98px) {
+	.about {
+		width: 100%;
+		height: 100%;
+		.about-us-description {
+			width: 100%;
+			white-space: nowrap;
+			h3 {
+				font-size: 25px;
+			}
+			.about-us-list {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+			}
+		}
+		.about-us-images {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			height: 100%;
+			width: 100%;
+			.image-1 {
+				img {
+					width: 100%;
+					height: 100%;
+				}
+			}
+			.image-2 {
+				display: flex;
+				flex-direction: column;
+			}
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	.about {
+		width: 100%;
+		height: 100%;
+		.about-us-description {
+			margin: 0;
+
+			h1 {
+				font-size: 30px;
+			}
+			p {
+				width: 100%;
+				font-size: 20px;
+			}
+			.about-us-list {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+			}
+		}
+		.about-us-images {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			height: 100%;
+			width: 100%;
+			.image-1 {
+				img {
+					width: 100%;
+					height: 100%;
+				}
+			}
+			.image-2 {
+				display: flex;
+				flex-direction: column;
+			}
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	.about {
+		.about-us-description {
+			p {
+				white-space: initial;
+			}
+		}
+	}
+}
