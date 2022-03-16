@@ -203,3 +203,19 @@
 		}
 	}
 }
+
+@media (max-width: 322px) {
+	.header {
+		.container-fluid {
+			.row {
+				.call-to-action-section {
+					.call-to-action {
+						.network-community-section {
+							margin-bottom: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}
