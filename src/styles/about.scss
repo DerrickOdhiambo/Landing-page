@@ -32,13 +32,20 @@
 			div {
 				display: flex;
 				align-items: center;
-				img {
-					width: 8px;
-					height: 8px;
-					background: #217bf4;
-					border: 1px solid #217bf4;
+				.ellipse-container {
+					width: 16px;
+					height: 16px;
 					border-radius: 50%;
-					box-shadow: red;
+					background: rgba($color: #217bf4, $alpha: 0.2);
+					display: flex;
+					justify-content: center;
+					img {
+						width: 8px;
+						height: 8px;
+						background: #217bf4;
+						border: 1px solid #217bf4;
+						border-radius: 50%;
+					}
 				}
 				p {
 					margin-top: 1rem;

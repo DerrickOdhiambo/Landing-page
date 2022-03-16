@@ -19,15 +19,21 @@ const About = () => {
 						</p>
 						<div className='about-us-list'>
 							<div className='groups'>
-								<img src='images/ellipse.png' alt='' />
+								<div className='ellipse-container'>
+									<img src='images/ellipse.png' alt='' />
+								</div>
 								<p>Groups</p>
 							</div>
 							<div className='messages'>
-								<img src='images/ellipse.png' alt='' />
+								<div className='ellipse-container'>
+									<img src='images/ellipse.png' alt='' />
+								</div>
 								<p>Messages</p>
 							</div>
 							<div className='share'>
-								<img src='images/ellipse.png' alt='' />
+								<div className='ellipse-container'>
+									<img src='images/ellipse.png' alt='' />
+								</div>
 								<p>Share</p>
 							</div>
 						</div>
