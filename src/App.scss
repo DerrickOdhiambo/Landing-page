@@ -1,5 +1,8 @@
+@import './styles/variables.scss';
+
 body {
 	background-color: white;
+	font-family: $Inter;
 }
 
 @media (max-width: 991.98px) {
