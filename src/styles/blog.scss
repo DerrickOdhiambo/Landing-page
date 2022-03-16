@@ -95,6 +95,7 @@
 	.blog {
 		height: 100%;
 		width: 100%;
+		margin: 2rem 0;
 		.blog-images {
 			width: 100%;
 			.row {
@@ -102,6 +103,12 @@
 					img {
 						height: 230px;
 						width: 230px;
+					}
+					.blog-union-images {
+						#blog-union-image-2,
+						#blog-union-image-1 {
+							display: none;
+						}
 					}
 				}
 			}

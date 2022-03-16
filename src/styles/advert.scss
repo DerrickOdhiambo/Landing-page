@@ -41,7 +41,24 @@
 	}
 }
 
-//MEdia Queries
+//Media Queries
+@media (max-width: 992px) {
+	.advert {
+		height: 100%;
+		width: 100%;
+		.container {
+			.row {
+				.cta-image {
+					img#cta-image {
+						width: 100%;
+						height: 480px;
+					}
+				}
+			}
+		}
+	}
+}
+
 @media (max-width: 768px) {
 	.advert {
 		height: 100%;

@@ -89,6 +89,7 @@
 				.call-to-action-section {
 					.call-to-action {
 						left: 50%;
+						top: 100px;
 					}
 				}
 				.landing-page-image {
@@ -107,6 +108,24 @@
 					.call-to-action {
 						left: 30%;
 						top: 200px;
+					}
+				}
+				.landing-page-image {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 724px) {
+	.header {
+		.container-fluid {
+			.row {
+				.call-to-action-section {
+					.call-to-action {
+						left: 10%;
+						top: 150px;
 					}
 				}
 				.landing-page-image {
