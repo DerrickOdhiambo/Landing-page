@@ -8,18 +8,23 @@ import Advert from './components/Advert';
 import Blog from './components/Blog';
 import Footer from './components/Footer';
 
+//Router
+import { BrowserRouter as Router } from 'react-router-dom';
+
 function App() {
 	return (
-		<div className='App'>
-			<Header />
-			<About />
-			<Achievement />
-			<Features />
-			<Members />
-			<Advert />
-			<Blog />
-			<Footer />
-		</div>
+		<Router>
+			<div className='App'>
+				<Header />
+				<About />
+				<Achievement />
+				<Features />
+				<Members />
+				<Advert />
+				<Blog />
+				<Footer />
+			</div>
+		</Router>
 	);
 }
 
